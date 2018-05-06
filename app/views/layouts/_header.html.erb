@@ -1,0 +1,7 @@
+<header class="header">
+  <ul class="header-nav">
+    <% if logged_in? %>
+    <li><%= link_to "Sign out", logout_path, method: :delete %>
+    <% end %>
+  </ul>
+</header>
