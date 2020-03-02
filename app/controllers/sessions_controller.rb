@@ -1,6 +1,7 @@
 class SessionsController < ApplicationController
 
   def new
+    @user = User.new
   end
 
   def create
@@ -9,7 +10,7 @@ class SessionsController < ApplicationController
       log_in user
       redirect_to messages_url
     else
-      flash.now[:danger] = 'Invalid username/password combination'
+      flash.now[:danger] = 'Username or Password combination is invalid.'
       render 'new'
     end
   end
