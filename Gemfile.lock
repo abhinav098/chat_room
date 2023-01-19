@@ -51,7 +51,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
-    concurrent-ruby (1.0.5)
+    concurrent-ruby (1.1.10)
     crass (1.0.4)
     debug_inspector (0.0.3)
     erubis (2.7.0)
@@ -60,8 +60,8 @@ GEM
       i18n (~> 0.5)
     ffi (1.9.23)
     formatador (0.2.5)
-    globalid (0.4.1)
-      activesupport (>= 4.2.0)
+    globalid (1.0.1)
+      activesupport (>= 5.0)
     guard (2.13.0)
       formatador (>= 0.2.4)
       listen (>= 2.7, <= 4.0)
@@ -97,7 +97,7 @@ GEM
     method_source (0.9.0)
     mini_mime (1.0.0)
     mini_portile2 (2.4.0)
-    minitest (5.11.3)
+    minitest (5.15.0)
     minitest-reporters (1.1.9)
       ansi
       builder
@@ -115,7 +115,8 @@ GEM
     pry (0.11.3)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
-    puma (3.12.3)
+    puma (6.0.2)
+      nio4r (~> 2.0)
     rack (2.0.5)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -182,7 +183,7 @@ GEM
     turbolinks (5.0.0)
       turbolinks-source (~> 5)
     turbolinks-source (5.1.0)
-    tzinfo (1.2.5)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     uglifier (3.0.0)
       execjs (>= 0.3.0, < 3)
